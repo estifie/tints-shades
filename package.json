@@ -15,12 +15,31 @@
 			"^.+\\.(ts|tsx)$": "ts-jest"
 		}
 	},
-	"author": "",
+	"author": "axelnt",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/jest": "^29.5.12",
 		"jest": "^29.7.0",
 		"ts-jest": "^29.1.2",
 		"typescript": "^5.4.5"
-	}
+	},
+	"types": "./dist/index.d.ts",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/axelnt/tints-shades.git"
+	},
+	"keywords": [
+		"tint",
+		"shade",
+		"color",
+		"tints",
+		"shades",
+		"rgb",
+		"hex"
+	],
+	"bugs": {
+		"url": "https://github.com/axelnt/tints-shades/issues"
+	},
+	"homepage": "https://github.com/axelnt/tints-shades#readme"
 }
